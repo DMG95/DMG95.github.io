@@ -15,10 +15,39 @@ h1 {
 li {
     text-align:center;
     color:white;
-    font-family: "Sniglet";
     float:left;
     margin:20px;
     padding:5px;
+    border-color:#bebebe;
 }
 
+#Gib{
+ Font-family:Arial;
+ border:solid 2.5px;    
+ border-radius:2.5px;
+ 
+ }
 
+#Fen{
+ Font-family:Verdana;    
+ border:solid 2.5px;    
+ border-radius:2.5px;
+
+}
+
+#Iba{
+ border:solid 2.5px;    
+ border-radius:2.5px;
+
+}
+
+#Lag{
+ border:solid 2.5px;    
+ border-radius:2.5px;
+ 
+}
+
+#Esp{
+ border:solid 2.5px;    
+ border-radius:2.5px;
+}
