@@ -15,11 +15,12 @@ h1 {
 li {
     text-align:center;
     color:white;
-    font-family: "Sniglet";
     float:left;
     margin:20px;
     padding:5px;
+    border-color:#bebebe;
 }
+
 
   .mi-menu  {
   color: white;
@@ -49,9 +50,7 @@ li {
     left: 0;
     margin: 0;
     opacity: 0; /* no son visibles */
-    position: absolute;
-    bottom: 40px; /* se ubican debajo del enlace principal */
-    /* el color de fondo */
+    position: relative;
     background: #222;
     background: -moz-linear-gradient(#222,#555);
     background: -o-linear-gradient(#222,#555);
@@ -69,3 +68,35 @@ li {
   
   
   
+
+#Gib{
+ Font-family:Arial;
+ border:solid 2.5px;    
+ border-radius:2.5px;
+ 
+ }
+
+#Fen{
+ Font-family:Verdana;    
+ border:solid 2.5px;    
+ border-radius:2.5px;
+
+}
+
+#Iba{
+ border:solid 2.5px;    
+ border-radius:2.5px;
+
+}
+
+#Lag{
+ border:solid 2.5px;    
+ border-radius:2.5px;
+ 
+}
+
+#Esp{
+ border:solid 2.5px;    
+ border-radius:2.5px;
+}
+
