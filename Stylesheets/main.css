@@ -18,7 +18,9 @@ li {
     float:left;
     margin:20px;
     padding:5px;
-    border-color:#bebebe;
+    border:solid 1.5px;
+    border-color:White;
+    border-radius:2.5px;
 }
 
 
@@ -73,30 +75,34 @@ li {
  Font-family:Arial;
  border:solid 2.5px;    
  border-radius:2.5px;
- 
+ border-color:White;
  }
 
 #Fen{
- Font-family:Verdana;    
+ Font-family:Arial;    
  border:solid 2.5px;    
  border-radius:2.5px;
-
+ border-color:White;
 }
 
 #Iba{
+ Font-family:Arial;
  border:solid 2.5px;    
  border-radius:2.5px;
-
+ border-color:White;
 }
 
 #Lag{
+ Font-family:Arial;
  border:solid 2.5px;    
  border-radius:2.5px;
- 
+ border-color:White;
 }
 
 #Esp{
+ Font-family:Arial;
  border:solid 2.5px;    
  border-radius:2.5px;
+ border-color:White;
 }
 
