@@ -15,12 +15,9 @@ h1 {
 li {
     text-align:center;
     color:white;
-    float:left;
-    margin:20px;
-    padding:5px;
-    border:solid 1.5px;
+    box-align:center;
     border-color:White;
-    border-radius:2.5px;
+    
 }
 
 
@@ -29,14 +26,12 @@ li {
   }
 
  .mi-menu li a {
-    color: #EEE;
+    color:White;
     display: block;
     font-family: Tahoma;
-    font-size: 13px;
-    font-weight: bold;
-    line-height: 28px;
-    padding: 0 14px;
-    margin: 6px 0;
+    line-height: 24px;
+    padding: 1.5px;
+    margin: 5px;
     text-decoration: none;
     /* animamos el cambio de color de los textos */
     -webkit-transition: color .2s ease-in-out;
@@ -48,8 +43,8 @@ li {
   
   
     .mi-menu ul {
-    border-radius: 0 0 5px 5px;
-    left: 0;
+     
+    border-radius: 2.5px;
     margin: 0;
     opacity: 0; /* no son visibles */
     position: relative;
@@ -72,37 +67,47 @@ li {
   
 
 #Gib{
+  
+ font-weight: bold;    
+ box-align:center;    
  Font-family:Arial;
  border:solid 2.5px;    
- border-radius:2.5px;
- border-color:White;
+  border-color:White;
  }
 
 #Fen{
+    
+ font-weight: bold;    
+ box-align:center;     
  Font-family:Arial;    
  border:solid 2.5px;    
- border-radius:2.5px;
- border-color:White;
+  border-color:White;
 }
 
 #Iba{
+  
+ font-weight: bold;    
+ box-align:center;     
  Font-family:Arial;
  border:solid 2.5px;    
- border-radius:2.5px;
- border-color:White;
+  border-color:White;
 }
 
 #Lag{
+ 
+ font-weight: bold;   
+ box-align:center;     
  Font-family:Arial;
  border:solid 2.5px;    
- border-radius:2.5px;
- border-color:White;
+  border-color:White;
 }
 
 #Esp{
+   
+ font-weight: bold;   
+ box-align:center;     
  Font-family:Arial;
  border:solid 2.5px;    
- border-radius:2.5px;
- border-color:White;
+  border-color:White;
 }
 
