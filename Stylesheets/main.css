@@ -1,37 +1,57 @@
 
 body {
     background-color:Black;
+    background-image:url("http://www.mifondodepantallagratis.net/music/wallpapers/guitar-black-and-white-02.jpg");
 }
 
 h1 {
-    color:#bebebe; 
+    color:black; 
     font: "Sniglet";
     text-align:center;
-    opacity:0.1;
+    opacity:0.6;
     font-size:175px;
     
 }
 
-li {
-    text-align:center;
-    color:white;
-    box-align:center;
-    border-color:White;
-    
-}
 
-
-  .mi-menu  {
-  color: white;
+.mi-menu  {
+    border-radius: 5px;
+    list-style-type: none;
+    margin: 0 auto; /* si queremos centrarlo */
+    padding: 0;
+    /* la altura y su ancho dependerán de los textos */
+    height: 40px; 
+    width: 350px;
+    /* el color de fondo */
+    background: #555;
+    background: -moz-linear-gradient(#555,#222);
+    background: -webkit-linear-gradient(#555,#222);
+    background: -o-linear-gradient(#555,#222);
+    background: -ms-linear-gradient(#555,#222);
+    background: linear-gradient(#555,#222);
   }
 
- .mi-menu li a {
-    color:White;
+  /* si es necesario, evitamos que Blogger de problemas con los saltos de línea cuando escribimos el HTML */
+  .mi-menu  br { display:none; }
+
+  /* cada item del menu */
+  .mi-menu  li {
     display: block;
-    font-family: Tahoma;
-    line-height: 24px;
-    padding: 1.5px;
-    margin: 5px;
+    float: left; /* la lista se ve horizontal */
+    height: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  .mi-menu li a {
+    border-left: 1px solid #000;
+    border-right: 1px solid #666;
+    color: #EEE;
+    display: block;
+    font-weight: bold;
+    padding: 0 14px;
+    margin: 6px 0;
     text-decoration: none;
     /* animamos el cambio de color de los textos */
     -webkit-transition: color .2s ease-in-out;
@@ -40,74 +60,65 @@ li {
     -ms-transition: color .2s ease-in-out;
     transition: color .2s ease-in-out;
   }
+  /* eliminamos los bordes del primer y el último */
+  .mi-menu li:first-child a { border-left: none; }
+  .mi-menu li:last-child a{ border-right: none; }
+  /* efecto hover cambia el color */
+  .mi-menu li:hover > a { color: Crimson; }
+
   
   
-    .mi-menu ul {
-     
-    border-radius: 2.5px;
+  .mi-menu ul {
+    border-radius: 0 0 5px 5px;
+    left: 0;
     margin: 0;
     opacity: 0; /* no son visibles */
-    position: relative;
+    position: absolute;
+    top: 40px; /* se ubican debajo del enlace principal */
+    /* el color de fondo */
     background: #222;
     background: -moz-linear-gradient(#222,#555);
+    background: -webkit-linear-gradient(#222,#555);
     background: -o-linear-gradient(#222,#555);
     background: -ms-linear-gradient(#222,#555);
     background: linear-gradient(#222,#555);
-    /* animamos su visibildiad */
     -moz-transition: opacity .25s ease .1s;
     -webkit-transition: opacity .25s ease .1s;
     -o-transition: opacity .25s ease .1s;
     -ms-transition: opacity .25s ease .1s;
     transition: opacity .25s ease .1s;
   }
+  
   /* son visibes al poner el cursor encima */
   .mi-menu li:hover > ul { opacity: 1; }
-  
-  
-  
 
-#Gib{
-  
- font-weight: bold;    
- box-align:center;    
- Font-family:Arial;
- border:solid 2.5px;    
-  border-color:White;
- }
+   /* cada un ode los items de los submenús */
+  .mi-menu ul li {
+    height: 0; /* no son visibles */
+    overflow: hidden;
+    padding: 0;
+    /* animamos su visibildiad */
+    -moz-transition: height .25s ease .1s;
+    -webkit-transition: height .25s ease .1s;
+    -o-transition: height .25s ease .1s;
+    -ms-transition: height .25s ease .1s;
+    transition: height .25s ease .1s;
+  }
+  .mi-menu li:hover > ul li {
+    height: 36px; /* los mostramos */
+    overflow: visible;
+    padding: 0;
+  }
+  .mi-menu ul li a {
+    border: none;
+    border-bottom: 1px solid #111;
+    margin: 0;
+    /* el ancho dependerá de los textos a utilizar */
+    padding: 5px 20px;
+    width: 100px;
+  }
+  /* el último n otiene un borde */
+  .mi-menu ul li:last-child a { border: none; }
 
-#Fen{
-    
- font-weight: bold;    
- box-align:center;     
- Font-family:Arial;    
- border:solid 2.5px;    
-  border-color:White;
-}
 
-#Iba{
-  
- font-weight: bold;    
- box-align:center;     
- Font-family:Arial;
- border:solid 2.5px;    
-  border-color:White;
-}
-
-#Lag{
- 
- font-weight: bold;   
- box-align:center;     
- Font-family:Arial;
- border:solid 2.5px;    
-  border-color:White;
-}
-
-#Esp{
-   
- font-weight: bold;   
- box-align:center;     
- Font-family:Arial;
- border:solid 2.5px;    
-  border-color:White;
-}
 
