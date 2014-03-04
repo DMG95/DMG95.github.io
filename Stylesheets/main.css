@@ -1,7 +1,8 @@
 
 body {
-    background-color:Black;
-    background-image:url("http://www.mifondodepantallagratis.net/music/wallpapers/guitar-black-and-white-02.jpg");
+    background-image:url("Imagenes/Fondo_principal.jpg");
+    background-size:100% 100%;
+    
 }
 
 h1 {
@@ -83,8 +84,8 @@ h1 {
   
   /* son visibes al poner el cursor encima */
   .mi-menu li:hover > ul { opacity: 1; }
-
-   
+  .mi-menu li:hover > a {color:purple;} 
+    
   .mi-menu ul li {
     height: 0; 
     overflow: hidden;
@@ -108,5 +109,7 @@ h1 {
     /* el ancho dependerá de los textos a utilizar */
     padding:5px;
     width: 45px;
+ 
+
   }
  
