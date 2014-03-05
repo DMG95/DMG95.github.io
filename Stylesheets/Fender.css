@@ -1,11 +1,10 @@
-body{
-     background-color:black;
-    }    
+body {
+     background-color:white;
+     }    
 
-a {
-    font-size:175px;
-    color:#bebebeb;
-    opacity:0.5; 
-    text-decoration:none;
+p {
+    color:black;
+    opacity:0.3;
+    font-weight:bold;
   }
     
