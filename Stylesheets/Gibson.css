@@ -1,11 +1,100 @@
+.Logo{
+    width:250px;
+    }
+
 .SG{
-    width:25px;
+    width:250px;
     }
 
 .ES{
-    width:75px;
+    width:250px;
     }
 
 .LP{
-    width:25px;
+    width:250px;
     }    
+    
+   .menu-gibson  {
+    border-radius:5px;
+    margin: 0 auto;
+    padding: 0;
+    height: 40px; 
+    width: 350px;
+   }
+
+   
+
+  /* cada item del menu */
+  .menu-gibson  li {
+    display: block;
+    float: left; 
+    height: 40px;
+    list-style: none;
+    margin:1px;
+    padding: 0;
+    position: relative;
+  }
+  .menu-gibson li img {
+    border:5px solid;
+    border-radius:500px;
+    display: block;
+    font-weight: bold;
+    padding: 14px;
+    margin:20px;
+    text-decoration: none;
+    /* animamos el cambio de color de los textos */
+    -webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    -ms-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+  }
+ 
+  
+  
+  .menu-gibson ul {
+    border-radius:5px;
+    left:0;
+    margin: 5px;
+    width:100px;
+    position: absolute;
+    top:40px; /* se ubican debajo del enlace principal */
+    background:black;
+  
+    -moz-transition: opacity .25s ease .1s;
+    -webkit-transition: opacity .25s ease .1s;
+    -o-transition: opacity .25s ease .1s;
+    -ms-transition: opacity .25s ease .1s;
+    transition: opacity .25s ease .1s;
+  }
+  
+  /* son visibes al poner el cursor encima */
+  .menu-gibson li:hover > ul { opacity: 1; }
+   
+    
+  .menu-gibson ul li {
+    height: 0; 
+    overflow: hidden;
+    padding: 0;
+    /* animamos su visibildiad */
+    -moz-transition: height .25s ease .1s;
+    -webkit-transition: height .25s ease .1s;
+    -o-transition: height .25s ease .1s;
+    -ms-transition: height .25s ease .1s;
+    transition: height .25s ease .1s;
+  }
+  .menu-gibson li:hover > ul li {
+    height: 36px; /* los mostramos */
+    overflow: visible;
+    padding: 0;
+  }
+  .menu-gibson ul li img {
+    border: none;
+    border-bottom: 1px solid #111;
+    margin: 0;
+    /* el ancho dependerá de los textos a utilizar */
+    padding:5px;
+    width: 45px;
+ 
+
+  }
