@@ -13,54 +13,36 @@
 .LP{
     width:250px;
     }    
-    
-   .menu-gibson  {
-    border-radius:5px;
-    margin: 0 auto;
-    padding: 0;
-    height: 40px; 
-    width: 350px;
-   }
+ 
 
-   
-
-  /* cada item del menu */
+ /* cada item del menu */
   .menu-gibson  li {
     display: block;
-    float: left; 
-    height: 40px;
+    float: left;
     list-style: none;
-    margin:1px;
+    margin: 5px;
     padding: 0;
     position: relative;
   }
   .menu-gibson li img {
-    border:5px solid;
     border-radius:500px;
+    border:3px solid;
+    color:#cccccc;
     display: block;
-    font-weight: bold;
-    padding: 14px;
-    margin:20px;
-    text-decoration: none;
-    /* animamos el cambio de color de los textos */
-    -webkit-transition: color .2s ease-in-out;
-    -moz-transition: color .2s ease-in-out;
-    -o-transition: color .2s ease-in-out;
-    -ms-transition: color .2s ease-in-out;
-    transition: color .2s ease-in-out;
-  }
+    padding:0 14px;
+    margin: 6px 0;
+}
  
   
   
   .menu-gibson ul {
+    color:black;
     border-radius:5px;
     left:0;
-    margin: 5px;
+    margin: 10px;
     width:100px;
-    position: absolute;
-    top:40px; /* se ubican debajo del enlace principal */
-    background:black;
-  
+    position: relative;
+    /* se ubican debajo del enlace principal */
     -moz-transition: opacity .25s ease .1s;
     -webkit-transition: opacity .25s ease .1s;
     -o-transition: opacity .25s ease .1s;
@@ -70,31 +52,21 @@
   
   /* son visibes al poner el cursor encima */
   .menu-gibson li:hover > ul { opacity: 1; }
-   
-    
+  
   .menu-gibson ul li {
-    height: 0; 
+     border-radius:3px;
+    height:0; 
+    color:black;
     overflow: hidden;
-    padding: 0;
-    /* animamos su visibildiad */
+    padding:0;
     -moz-transition: height .25s ease .1s;
     -webkit-transition: height .25s ease .1s;
     -o-transition: height .25s ease .1s;
     -ms-transition: height .25s ease .1s;
     transition: height .25s ease .1s;
-  }
+}
   .menu-gibson li:hover > ul li {
-    height: 36px; /* los mostramos */
+    height: 46px; /* los mostramos */
     overflow: visible;
-    padding: 0;
-  }
-  .menu-gibson ul li img {
-    border: none;
-    border-bottom: 1px solid #111;
-    margin: 0;
-    /* el ancho dependerá de los textos a utilizar */
-    padding:5px;
-    width: 45px;
- 
-
-  }
+    
+}
