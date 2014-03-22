@@ -1,0 +1,24 @@
+.Logo{
+    width:300px;
+    }
+
+.iconos{
+    float:right;
+    padding:10px;
+    list-style:none;
+}
+
+img.Casa{
+    width:75px;
+    position:relative;
+    opacity:0.3;
+    list-style:none;
+    -webkit-transition: opacity .4s;
+}
+
+img.Casa:hover{opacity:1;}
+
+.A {
+    width:250px;
+    list-style:none;
+    }
