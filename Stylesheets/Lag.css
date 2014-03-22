@@ -1,0 +1,80 @@
+.Logo{
+    width:400px;
+    }
+
+.iconos{
+    float:right;
+    padding:10px;
+    list-style:none;
+}
+
+img.Casa{
+    width:75px;
+    position:relative;
+    opacity:0.3;
+    list-style:none;
+    -webkit-transition: opacity .4s;
+}
+
+img.Casa:hover{opacity:1;}
+
+.Ar{width:350px;}
+.Im{width:350px;}
+
+
+  .menu-lag  li {
+    display: block;
+    float: left;
+    list-style: none;
+    margin: 5px;
+    padding: 25px;
+    position: relative;
+    position:auto;
+  }
+  .menu-lag li img {
+    border-radius:500px;
+    border:3px solid;
+    color:#cccccc;
+    display: block;
+    padding:0 14px;
+    margin: 6px 0;
+    
+}
+ 
+  
+  
+  .menu-lag ul {
+    color:black;
+    border-radius:5px;
+    left:0;
+    margin: 10px;
+    width:100px;
+    position: relative;
+    /* se ubican debajo del enlace principal */
+    -moz-transition: opacity .25s ease .1s;
+    -webkit-transition: opacity .25s ease .1s;
+    -o-transition: opacity .25s ease .1s;
+    -ms-transition: opacity .25s ease .1s;
+    transition: opacity .25s ease .1s;
+  }
+  
+ 
+  .menu-lag li:hover > ul { opacity: 1; }
+  
+  .menu-lag ul li {
+     border-radius:3px;
+    height:0; 
+    color:black;
+    overflow: hidden;
+    padding:0;
+    -moz-transition: height .25s ease .1s;
+    -webkit-transition: height .25s ease .1s;
+    -o-transition: height .25s ease .1s;
+    -ms-transition: height .25s ease .1s;
+    transition: height .25s ease .1s;
+}
+  .menu-lag li:hover > ul li {
+    height: 46px; /* los mostramos */
+    overflow: visible;
+    
+}

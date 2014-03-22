@@ -15,6 +15,23 @@
     }    
  
 
+.iconos{
+    float:right;
+    padding:20px;
+    list-style:none;
+}
+
+img.Casa{
+    width:75px;
+    position:relative;
+    opacity:0.3;
+    list-style:none;
+    -webkit-transition: opacity .4s;
+}
+
+img.Casa:hover{opacity:1;} 
+ 
+ 
  /* cada item del menu */
   .menu-gibson  li {
     display: block;
